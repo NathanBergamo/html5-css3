@@ -1,0 +1,231 @@
+
+@charset "UTF-8";
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  @font-face {
+    font-family: 'android';
+    src: url(../fontes/idroid.otf); format ('opentype');
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8E5C2;
+}
+header{
+    background-image: linear-gradient(to top, #063D1E -2%, #1A5C37 20%, #2FA866 80%, #3DDC84 101%, #83E1C2 123%, #c5ebd6);
+}
+header > h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 0px rgb(82, 81, 81);
+    padding-top: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
+
+}
+header > p{
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px 0px rgb(82, 81, 81);
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+nav{
+    padding-bottom: 10px;
+    padding-left: 25px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363);
+}
+header > nav > #home{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 4px;
+    color: #46da7e;
+    border-radius: 5px;
+    transition-duration: 0.7s;
+    
+}
+
+header > nav > #noticias{
+    display: inline;
+    color: rgb(240, 240, 240);
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #46da7e;
+    border-radius: 5px;
+    transition-duration: 0.7s;
+
+}
+header > nav > #curiosidades{
+    display: inline;
+    color: rgb(240, 240, 240);
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #46da7e;
+    border-radius: 5px;
+    transition-duration: 0.7s;
+}
+header > nav > #faleconosco{
+    display: inline;
+    color: rgb(240, 240, 240);
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #46da7e;
+    border-radius: 5px;
+   transition-duration: 0.7s;
+}
+
+#home:hover{
+    background-color: #2FA866;
+    color: #063D1E;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#noticias:hover{
+    background-color: #2FA866;
+    color: #063D1E;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+#curiosidades:hover{
+    background-color: #2FA866;
+    color: #063D1E;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#faleconosco:hover{
+    background-color: #2FA866;
+    color: #063D1E;
+    padding-top:  8px;
+    padding-bottom: 8px;
+}
+main{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    max-width: 1000px;
+    min-width: 280px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ 
+}
+
+main > article > h2{
+    font-family:'android';
+    color: #1A5C37;
+    padding-top: 10px;
+    font-size: 1.7em;
+
+    
+}
+
+main > article > p{
+    text-align: justify;
+    text-indent: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 1.5em;
+  
+
+}
+a{
+    background-color: #68cf97;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: #0c4223;
+}
+main > article > h3{
+    font-family: 'android';
+    color: #054722;
+    background-image: linear-gradient(to right,#68cf97 ,white);
+    padding-left: 5px;
+}
+#bugroid{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    background-color: #063D1E; 
+    margin: 0px -20px 30px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+.video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+main > article >  aside{
+    background-color: #71e0a3;
+    border-radius: 20px 20px 10px 10px;
+
+}
+main > article > aside >  h3{
+    color: aliceblue;
+    background-color: #045025;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0px 0px
+    
+}
+main > article > aside > p{
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: justify;
+    text-indent: 30px;
+    padding-top: 10px;
+    line-height: 1.5em;
+}
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+strong{
+    color: rgb(5, 92, 5);
+}
+#final{
+    background-color: #054722;
+    color: #c9dfd3;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+
+}
+aside{
+    padding-bottom: 20px;
+    margin-bottom: 10px ;
+}
+ #pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+img{
+    width: 100%;
+}

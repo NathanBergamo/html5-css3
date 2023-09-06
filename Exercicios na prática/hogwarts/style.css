@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nanum+Myeongjo:wght@700&display=swap');
+  body{
+    background-color: rgba(145, 88, 28, 0.589);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header{ 
+    margin: auto;
+    max-width: 950px;
+    min-width: 280px;
+  
+  }
+  header > h1{
+    font-family:'Bree Serif', serif;
+    font-weight: normal;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 9px 1px 20px rgba(255, 255, 255, 0.664);
+  }
+  
+   header > #brasao{
+    display: flex;
+    justify-content: center;
+}
+  header > h2{
+    font-family:'Bree Serif', serif;
+    font-weight: normal;
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-shadow: 9px 1px 20px rgba(255, 255, 255, 0.671);
+  }
+   nav{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1em;
+  }
+
+   nav > a{
+    text-decoration: none;
+    margin-left: px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   }
+   #grifinoria{
+    color: rgb(206, 40, 40);
+    padding-right: 7px;
+   }
+   #sonserina{
+    color: rgb(82, 212, 43);
+    padding-right: 7px;
+   }
+   #lufalufa{
+    color: rgb(252, 239, 64);
+    padding-right: 7px;
+   }
+   #corvinal{
+    color: rgba(2, 21, 192, 0.842);
+    padding-right: 7px;
+   }
+   #grifinoria:hover{
+    color: rgb(255, 2, 2);
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(221, 93, 93, 0.616);
+    padding: 5px 5px;
+    transition-duration: 0.8s;
+    font-size: 1.2em;
+   }
+   #sonserina:hover{
+    color: rgb(62, 255, 55);
+     border-radius: 10px 10px 10px 10px;
+    background-color: rgba(176, 221, 93, 0.616);
+    padding: 5px 5px;
+    transition-duration: 0.8s;
+    font-size: 1.2em;
+   }
+   #corvinal:hover{
+    color: rgb(0, 68, 255);
+     border-radius: 10px 10px 10px 10px;
+    background-color: rgba(93, 112, 221, 0.616);
+    padding: 5px 5px;
+    transition-duration: 0.8s;
+    font-size: 1.2em;
+   }
+   #lufalufa:hover{
+    color: yellow;
+     border-radius: 10px 10px 10px 10px;
+    background-color: rgba(221, 219, 93, 0.616);
+    padding: 5px 5px;
+    transition-duration: 0.8s;
+    font-size: 1.2em;
+   }
+   footer{
+    text-align: right;
+    padding-top: 10px;
+    font-weight: bold;
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
+   }
+ 
+
+  
+
+
+  
+     
+    
+  
+

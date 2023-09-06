@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+       background-image: linear-gradient(95deg,rgb(115, 4, 206), rgb(122, 10, 167));
+       background-attachment: fixed;
+       
+    }
+    header{
+        
+        padding: 10px;
+        margin: 10px;
+
+    }
+    header > h1{
+        box-shadow:3px 7px 20px 0px rgba(0, 0, 0, 0.438);
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: rgb(115, 4, 206);
+        color: white;
+        border-style: solid;
+    }
+    main{
+        background-color: rgb(169, 106, 221);
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid white;
+        border-radius: 10px;
+    }
+    footer{
+        color: white;
+        background-color: rgb(115, 4, 206);
+        padding: 1px;
+        margin: 10px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        text-align: center;
+        font-weight: bold;
+        
+     
+
+    }
+    article{
+        background-color: rgba(222, 91, 226, 0.514);
+        padding: 5px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    article > aside{
+        background-color: rgba(255, 0, 234, 0.219);
+        color: white;
+        font-weight: bold;
+        border-style: solid;
+        padding: 1px;
+        margin: 1px;
+        text-align: center;
+        border-radius: 10px;
+     
+    }
+    nav{
+        background-color: rgb(115, 4, 206);
+        padding: 5px;
+        border-style: solid;
+        border-color: white;
+    }
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+        color: rgb(186, 167, 201);;
+        font-size: 19px;
+    }
+    section#futebol{
+        background-color: rgb(215, 84, 219);
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        font-size: 30px;
+        border: 2px;
+        border-style: solid;
+        margin-right: 25px;
+        border-radius: 7px;
+        
+    }
+        
+   
+    section#politica{
+        background-color: rgb(215, 84, 219);
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        font-size: 30px;
+        border: 2px;
+        border-style: solid;
+        border-radius: 7px;
+    }
+    
+    section#politica:hover{
+        background-color: rgb(215, 84, 219);
+        display: inline-block;
+        width: 210px;
+        height: 210px;
+        text-align: center;
+        font-size: 30px;
+        border: 2px;
+        border-style: solid;
+        box-shadow:  7px 20px 19px 0px rgba(0, 0, 0, 0.658);
+
+    }
+    section#futebol:hover{
+         background-color: rgb(215, 84, 219);
+        display: inline-block;
+        width: 210px;
+        height: 210px;
+        text-align: center;
+        font-size: 30px;
+        border: 2px;
+        border-style: solid;
+        box-shadow:  7px 20px 19px 0px rgba(0, 0, 0, 0.658);
+    }
+    
+        
+    footer > p{
+        margin: 0px;
+    }
+    div#bola{
+        width: 210px;
+        height: 210px;
+        border: 3px solid rgb(7, 5, 5);
+        border-radius: 120px;
+        background: rgba(221, 82, 168, 0.61);
+        margin: 15px auto 10    px auto;
+    }
+    
+</style>
+<body>
+        <header>
+            <h1>Meu site</h1>
+                <nav>
+            <a href="#">Link</a> 
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+                </nav>
+        </header>
+        <main>
+            <section id="futebol">
+                <p>futebol</p>
+                
+
+            </section>
+            <section id="politica">
+                <p>Politica</p>
+
+            </section>
+            <section id="notcias">
+                <article>
+                    <h2>Noticias sobre o Brasil </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore odio ex quisquam laborum maiores fugiat in dolores facilis vero adipisci suscipit aspernatur, dignissimos dolor incidunt id eaque expedita labore consectetur.</p>
+                    <aside>
+                        <p>Nathan Bergamo Moura dos Santos</p>
+                    </aside>
+                </article> 
+
+            </section>
+        </main>
+        <footer>
+            <p>Escrito por Nathan   </p>
+        </footer>
+        <div id="bola"></div>
+
+
+    
+</body>
+</html>
