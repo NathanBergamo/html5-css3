@@ -76,7 +76,9 @@ article{
     display: flex;
     justify-content: center;
 }
-
+img{
+    width: 100%;
+}
 .leao{
     display: flex;
     justify-content: center;
