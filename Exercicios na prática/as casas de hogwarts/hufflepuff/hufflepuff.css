@@ -14,7 +14,7 @@ header > h1{
     border: 3px solid rgba(223, 223, 0, 0.87);
     border-radius: 65px 65px 61px 61px;
     margin: auto;
-    max-width: 800px;
+    max-width: 850px;
     min-width: 280px;
     margin-bottom: 25px;
     margin-top: 35px;
@@ -30,7 +30,7 @@ header > h2{
     border: 3px solid rgba(223, 223, 0, 0.87) ;
     border-radius: 65px 65px 61px 61px;
     margin: auto;
-    max-width: 800px;
+    max-width: 850px;
     min-width: 280px;
     margin-top: 20px;
     margin-bottom: 25px;
@@ -41,7 +41,7 @@ main{
     border: 3px solid rgba(223, 223, 0, 0.87);
     padding: 0px 15px 5px 20px;
     margin: auto;
-    max-width: 800px;
+    max-width: 850px;
     min-width: 280px;
     border-radius: 25px 25px 25px 25px;
     
@@ -67,7 +67,7 @@ main > article > p{
     border: 3px solid rgba(223, 223, 0, 0.87);
     padding: 0px 15px 15px 20px;
     margin: auto;
-    max-width: 800px;
+    max-width: 850px;
     min-width: 280px;
     margin-top: 10px;
     border-radius: 25px 25px 25px 25px;
@@ -108,7 +108,7 @@ img{
     border: 3px solid rgba(223, 223, 0, 0.87);
     padding: 0px 15px 5px 20px;
     margin: auto;
-    max-width: 800px;
+    max-width: 850px;
     min-width: 280px;
     margin-top: 10px;
     border-radius: 25px 25px 25px 25px;
