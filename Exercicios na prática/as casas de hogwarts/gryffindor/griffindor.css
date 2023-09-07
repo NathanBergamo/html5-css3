@@ -72,10 +72,11 @@ article{
 
 
 .godricfoto{
-    width: 96%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .leao{
     display: flex;
     justify-content: center;
