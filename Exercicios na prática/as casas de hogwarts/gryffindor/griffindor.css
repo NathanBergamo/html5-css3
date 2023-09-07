@@ -58,8 +58,8 @@ main > p{
     text-align: justify;
     text-indent: 30px;
     font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     line-height: 1.5em;
 }
     
@@ -94,8 +94,8 @@ article > p{
     text-align: justify;
     text-indent: 30px;
     font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     line-height: 1.5em;
 }
 main{

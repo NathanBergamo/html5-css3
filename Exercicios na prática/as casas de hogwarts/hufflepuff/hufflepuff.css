@@ -58,8 +58,8 @@ main > article > h1{
 main > article > p{
     text-align: justify;
     text-indent: 30px;
-    padding-right: 25px;
-    padding-left: 23px;
+    padding-right: 5px;
+    padding-left: 5px;
     line-height: 1.5em;
 }
 #art2{
@@ -98,8 +98,8 @@ img{
 #art2 > p{
     text-align: justify;
     text-indent: 30px;
-    padding-right: 25px;
-    padding-left: 23px;
+    padding-right: 5px;
+    padding-left: 5px;
     line-height: 1.5em;
 }
 #art3{
@@ -125,7 +125,7 @@ img{
     font-family: 'Bree Serif', serif;
     font-size: 2em;
     color: rgb(26, 25, 25);
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 
