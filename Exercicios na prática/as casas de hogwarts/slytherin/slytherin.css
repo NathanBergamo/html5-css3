@@ -54,24 +54,28 @@ main > h1{
     text-shadow: 0px 3px 0px rgba(3, 3, 3, 0.733);
     margin-top: 10px;
 }
-.salazar-foto{
-    width: 96%;
+
+picture{
     display: flex;
     justify-content: center;
 }
+img{
+    max-width: 100%;
+}
+
 main > p{
     font-weight: bold;
     text-align: justify;
     text-indent: 30px;
-    padding-right: 25px;
-    padding-left: 23px;
+    padding-right: 10px;
+    padding-left: 10px;
     line-height: 1.5em;
 }
 
 section{
     background-color: rgba(209, 195, 195, 0.87);
     border: 3px solid rgba(3, 3, 3, 0.733);
-    padding: 5px 15px 5px 20px;
+    padding: 5px 15px 15px 20px;
     max-width: 800px;
     min-height: 280px;
     margin: auto;
@@ -97,29 +101,18 @@ section > p{
     font-weight: bold;
     text-align: justify;
     text-indent: 30px;
-    padding-right: 25px;
-    padding-left: 23px;
+    padding-right: 10px;
+    padding-left: 10px;
     line-height: 1.5;
-}
-.curiosidades{
-    display: flex;
-    justify-content: center;
-}
-.barao{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 25px;
 }
 
 section > div > h2{
     font-family: 'Bree Serif', serif;
     font-size: 2em;
     color:#216420;
-    padding-left: 20px;
+    padding-left: 10px;
 }
-section > div > ul{
-    padding-left: 60px;
-}
+
 section > div > ul > li{
     font-weight: bold;
     line-height: 1.5em;

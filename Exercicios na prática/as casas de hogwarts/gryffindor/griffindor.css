@@ -58,8 +58,8 @@ main > p{
     text-align: justify;
     text-indent: 30px;
     font-weight: bold;
-    padding-left: 23px;
-    padding-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 1.5em;
 }
     
@@ -67,36 +67,12 @@ main > p{
 article{
     background-color: rgb(221, 165, 25);
     border: 3px solid rgba(3, 3, 3, 0.733);
-    padding: 5px 15px 5px 20px;
+    padding: 5px 15px 15px 20px;
     max-width: 800px;
     min-width: 280px;
     margin: auto;
     margin-bottom: 10px;
     border-radius: 25px 25px 25px 25px;
-}
-
-
-
-.godricfoto{
-    display: flex;
-    justify-content: center;
-}
-.leao{
-    display: flex;
-    justify-content: center;
-}
-.espada{
-    display: flex;
-    justify-content: center;
-}
-.salaocomunal{
-    display: flex;
-    justify-content: center;
-}
-.nick{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 25px;
 }
 
 article > h1{
@@ -118,8 +94,8 @@ article > p{
     text-align: justify;
     text-indent: 30px;
     font-weight: bold;
-    padding-left: 23px;
-    padding-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 1.5em;
 }
 main{
@@ -157,12 +133,9 @@ section > h1{
 section > div > h2{
     font-family: 'Bree Serif', serif;
     color: rgb(148, 22, 22);
-    padding-left: 20px;
     font-size: 2em;
 }
-section > div > ul{
-    padding-left: 60px;
-}
+
 section > div > ul > li{
     font-weight: bold;
     line-height: 1.5em;
@@ -170,7 +143,6 @@ section > div > ul > li{
 }
 
 #voltar{
-    width: 96%;
     display: flex;
     justify-content: center;
 
