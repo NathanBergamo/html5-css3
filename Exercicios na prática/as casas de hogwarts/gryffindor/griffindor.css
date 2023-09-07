@@ -21,9 +21,9 @@ header > h1{
    
 
 }
-header > #grifinoria{
-    display: flex;
-    justify-content: center;
+img{
+   
+    width: 100%;
 }
 header > h2{
     font-family: 'Bree Serif', serif;
