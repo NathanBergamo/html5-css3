@@ -6,7 +6,7 @@ body{
 }
 header{
         margin: auto;
-        max-width: 1200px;
+        max-width: 800px;
         min-width: 280px;
     }
 header > h1{
@@ -63,7 +63,7 @@ article{
     background-color: rgb(221, 165, 25);
     border: 3px solid rgba(3, 3, 3, 0.733);
     padding: 5px 15px 5px 20px;
-    max-width: 1200px;
+    max-width: 800px;
     min-width: 280px;
     margin: auto;
     margin-bottom: 10px;
@@ -122,7 +122,7 @@ main{
     border: 3px solid rgba(3, 3, 3, 0.733);
     margin-top: 25px;
     padding: 5px 15px 5px 20px;
-    max-width: 1200px;
+    max-width: 800px;
     min-height: 280px;
     margin: auto;
     margin-bottom: 10px;
@@ -135,7 +135,7 @@ section{
     border: 3px solid rgba(3, 3, 3, 0.733);
     padding: 5px 15px 5px 20px;
     margin: auto;
-    max-width: 1200px;
+    max-width: 800px;
     min-width: 280px;
     border-radius: 25px 25px 25px 25px;
 
@@ -174,7 +174,7 @@ footer{
     
     padding: 5px 15px 5px 20px;
     margin: auto;
-    max-width: 1200px;
+    max-width: 800px;
     min-width: 280px;
     margin-top: 10px;
     text-align: right;
