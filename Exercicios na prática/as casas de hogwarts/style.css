@@ -7,7 +7,7 @@
   }
   header{ 
     margin: auto;
-    max-width: 950px;
+    max-width: 500px;
     min-width: 280px;
   
   }
@@ -97,7 +97,7 @@
     text-align: right;
     padding-top: 10px;
     font-weight: bold;
-    max-width: 800px;
+    max-width: 500px;
     min-width: 280px;
     margin: auto;
    }
