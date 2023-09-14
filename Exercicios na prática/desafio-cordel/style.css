@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  :root{
+    --fonte001:'Passion One', cursive;
+    --fonte002: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte003: 'Sriracha', cursive;
+    --tamanhofont: 3.5vw;  
+
+  }
+  html, body{
+    min-height: 10vh;
+  }
+
+  header{
+    background-color: black;
+    text-align: center;
+    color: white;
+
+  }
+  header > h1{
+    font-family: var(--fonte001);
+    font-size: 10vw;
+    color: white;
+    font-variant: small-caps;
+    padding-top: 50px;
+
+  }
+  header > p{
+    font-family: var(--fonte002);
+    font-size: 16px;
+    padding-bottom: 50px;
+
+  }
+  header > p > strong > a{
+    text-decoration: none;
+    color: white;
+  }
+  header > p > strong > a:hover{
+    text-decoration: underline;
+    
+  }
+  .poesia{
+    background-color: white;
+    font-family: var(--fonte003);
+    text-align: justify;
+    font-size: var(--tamanhofont);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10px;
+    line-height: 2em;
+    margin-left: 40px;
+  }
+
+  .poesia-com-foto{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset -4px -4px 20px 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+   
+  }
+  section > aside > p{
+    background-color: rgba(0, 0, 0, 0.432);
+    font-size: var(--tamanhofont);
+    font-family: var(--fonte003);
+    color: white;
+    margin-left: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+  }
+  .poesia-com-foto2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset -4px -4px 20px 0px rgba(0, 0, 0, 0.644);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
