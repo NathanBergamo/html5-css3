@@ -15,7 +15,7 @@
     :root{
         --font-especial: 'font-pet';
         --cor: #8ED3DC;
-        --cor2: #069aad;
+        --cor2: #0f545e;
     }
     body{
         background-color: var(--cor);
@@ -28,11 +28,11 @@
     header{
         background-image: url(imagens/dog.wall.jpg);
         background-position: bottom center;
-        background-size: contain;
+        background-size: 200px;
         padding-top: 50px;
     }
     aside{
-        background-color: rgba(192, 240, 255, 0.548);
+        background-color: rgba(192, 240, 255, 0.349);
         margin-top: -52px;
     }
 
@@ -48,10 +48,13 @@ h1{
     text-align: center;
     font-variant: small-caps;
     padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-family: var(--font-especial);
     font-size: 3em;
     color: var(--cor2);
     font-weight: bolder;
+
 }
 main{
     background-color: white;
@@ -84,13 +87,13 @@ main > section > p{
 picture{
     display: flex;
     justify-content: center;
-    background-image: url(imagens/dog.wall.jpg);
+    background-image: url(imagens/pata-e-osso.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: 250px;
     margin-left: 5px;
 }
 img{
-    width: 72%;
+    width: 75%;
     padding: 10px;
     
 }
