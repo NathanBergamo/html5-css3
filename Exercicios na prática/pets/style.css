@@ -21,7 +21,7 @@
         background-color: var(--cor);
         margin:auto;
         max-width: 1150px;
-        min-width: 280px;
+        min-width: 180px;
       
        
     }
@@ -66,7 +66,7 @@ main > section > h2{
     font-family: var(--font-especial);
     font-size: 2.7em;
     font-variant: small-caps;
-    border-radius: 15px 0px 0px 5px;
+    border-radius: 15px 0px 0px 0px;
     background-image: linear-gradient(to right,#8ED3DC, rgb(255, 255, 255));
     margin-left: 5px;
     padding: 5px;
@@ -78,7 +78,7 @@ main > section > h2{
 main > section > p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    text-indent: 15px;
+    text-indent: 20px;
     line-height: 1.4em;
 }
 picture{
@@ -90,7 +90,7 @@ picture{
     margin-left: 5px;
 }
 img{
-    width: 70%;
+    width: 72%;
     padding: 10px;
     
 }
