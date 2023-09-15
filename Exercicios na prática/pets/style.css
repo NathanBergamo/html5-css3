@@ -1,0 +1,97 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+    @font-face {
+        font-family: font-pet;
+        src: url('GOODDC__.TTF');
+        font-weight: bolder;
+      
+
+    }
+    :root{
+        --font-especial: 'font-pet';
+        --cor: #8ED3DC;
+        --cor2: #069aad;
+    }
+    body{
+        background-color: var(--cor);
+        margin:auto;
+        max-width: 1150px;
+        min-width: 280px;
+      
+       
+    }
+    header{
+        background-image: url(imagens/dog.wall.jpg);
+        background-position: bottom center;
+        background-size: contain;
+        padding-top: 50px;
+    }
+    aside{
+        background-color: rgba(192, 240, 255, 0.548);
+        margin-top: -52px;
+    }
+
+h1{
+    font-family:var(--font-especial);
+    font-variant: small-caps;
+    font-size: 7em;
+    text-align: center;
+    padding-top: 30px;
+    color: var(--cor2);
+}
+#subtítulo{
+    text-align: center;
+    font-variant: small-caps;
+    padding-bottom: 50px;
+    font-family: var(--font-especial);
+    font-size: 3em;
+    color: var(--cor2);
+    font-weight: bolder;
+}
+main{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+main > section{
+    margin-bottom: 10px;
+}
+
+main > section > h2{
+    font-family: var(--font-especial);
+    font-size: 2.7em;
+    font-variant: small-caps;
+    border-radius: 15px 0px 0px 0px;
+    background-image: linear-gradient(to right,#8ED3DC, rgb(255, 255, 255));
+    margin-left: 30px;
+    padding: 5px;
+    margin-bottom: 25px;
+    color: var(--cor2);
+   
+  
+}
+main > section > p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    line-height: 1.4em;
+}
+picture{
+    display: flex;
+    justify-content: center;
+    background-image: url(imagens/dog.wall.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    margin-left: 30px;
+}
+img{
+    width: 65%;
+    padding: 10px;
+    
+}
+
