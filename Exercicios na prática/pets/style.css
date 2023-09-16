@@ -20,16 +20,26 @@
     body{
         background-color: var(--cor);
         margin:auto;
-        max-width: 1150px;
-        min-width: 180px;
+       
       
        
+    }
+    p{
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 20px;
+        line-height: 1.4em;
+        margin-bottom: 10px;
     }
     header{
         background-image: url(imagens/dog.wall.jpg);
         background-position: bottom center;
         background-size: 200px;
         padding-top: 50px;
+        box-shadow: inset 8px -17px 20px 0px rgba(0, 0, 0, 0.555);
+      
+       
+       
     }
     aside{
         background-color: rgba(192, 240, 255, 0.349);
@@ -43,6 +53,7 @@ h1{
     text-align: center;
     padding-top: 30px;
     color: var(--cor2);
+    text-shadow: 1px -3px 0px black;
 }
 #subtítulo{
     text-align: center;
@@ -54,18 +65,23 @@ h1{
     font-size: 3em;
     color: var(--cor2);
     font-weight: bolder;
+    line-height: 0.7em;
+    text-shadow: 1px -3px 0px black;
 
 }
 main{
     background-color: white;
     margin-top: 10px;
     padding: 10px;
+    max-width: 1150px;
+    min-width: 180px;
+    margin: auto;
 }
 main > section{
     margin-bottom: 10px;
 }
 
-main > section > h2{
+.titulo-texto{
     font-family: var(--font-especial);
     font-size: 2.7em;
     font-variant: small-caps;
@@ -75,16 +91,47 @@ main > section > h2{
     padding: 5px;
     margin-bottom: 25px;
     color: var(--cor2);
-   
-  
+    box-shadow: -4px 1px 10px 0px rgba(0, 0, 0, 0.411);
 }
-main > section > p{
+
+#artigo > h1{
+    font-size: 2.5em;
+    text-align: left;
+    background-color: #032174;
+    padding: 5px;
+    color: var(--cor);
+    border-radius: 20px 20px 1px 1px;
+    border: 1px solid black;
+    
+}
+.faixa-2{
+    background-color: rgba(84, 84, 243, 0.212);
+    padding: 5px;
+    border: 1px solid black;
+
+    
+}
+.faixa-1{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+ol{
+    list-style-position: inside;
+    background-color: var(--cor);
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 20px;
     line-height: 1.4em;
     margin-bottom: 10px;
+    line-height: 1.7em;
+    border: 1px solid black;
+    
+  
+    
 }
+
+
 picture{
     display: flex;
     justify-content: center;
@@ -94,7 +141,7 @@ picture{
     margin-left: 5px;
 }
 img{
-    width: 75%;
+    width: 80%;
     padding: 10px;
 }
 
