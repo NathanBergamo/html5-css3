@@ -133,8 +133,7 @@ ul{
     background-color: var(--warningcor);
     border: 2px solid black;
     padding: 10px;
-    max-width: 400px;
-    min-width: 120px;
+    width: 50%;
     margin: auto;
     margin-bottom: 10px;
     border-radius: 10px 10px 10px 10px;
