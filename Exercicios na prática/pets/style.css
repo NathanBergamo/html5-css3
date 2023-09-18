@@ -15,7 +15,8 @@
     :root{
         --font-especial: 'font-pet';
         --cor: #8ED3DC;
-        --cor2: #0f545e;
+        --cor2: #2c8896;
+        --warningcor: rgba(255, 255, 0, 0.801);
     }
     body{
         background-color: var(--cor);
@@ -70,7 +71,7 @@ h1{
 
 }
 main{
-    background-color: white;
+    background-color: rgb(250, 250, 250);
     margin-top: 10px;
     padding: 10px;
     max-width: 1150px;
@@ -94,7 +95,7 @@ main > section{
     box-shadow: -4px 1px 10px 0px rgba(0, 0, 0, 0.411);
 }
 
-#artigo > h1{
+#artigo{
     font-size: 2.5em;
     background-color: #032174;
     padding: 5px 0px 5px 5px; 
@@ -116,30 +117,92 @@ main > section{
     border: 1px solid black;
 }
 
-ol{
+
+ul{
     list-style-position: inside;
     background-color: var(--cor);
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    text-indent: 20px;
-    line-height: 1.4em;
+    text-indent: 20px; 
     margin-bottom: 10px;
-    line-height: 1.7em;
+    line-height: 1.5em;
     border: 1px solid black;
     
 }
+#warning{
+    background-color: var(--warningcor);
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+#warning > h3{
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+#warning > p{
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
 
 
-picture{
+
+#pets-wall{
     display: flex;
     justify-content: center;
     background-image: url(imagens/pata-e-osso.jpg);
     background-attachment: fixed;
     background-size: 250px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     margin-left: 5px;
-}
-img{
-    width: 80%;
-    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--cor2);
 }
 
+img{
+    width: 76%;
+    padding: 10px;
+}
+div#video{
+    position: relative;
+    background-image: url(imagens/pata-e-osso.jpg);
+    background-attachment: fixed;
+    background-size: 250px;
+    height: 0px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 56.5%;
+    border: 2px solid var(--cor2)
+}
+div#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    margin-top: 0px;
+}
+footer{  
+    margin: auto;
+    max-width: 1170px;
+    min-width: 180px;
+    
+}
+footer > p{
+    background-color: black;
+     text-align: center;
+     color: var(--cor);
+     padding: 5px;
+     margin-bottom: 0px;
+}
+a{
+    color: var(--cor);
+    text-decoration: none;
+}
