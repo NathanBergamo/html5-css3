@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Letra';
+    src: url('Fatal\ Fighter.ttf');
+}
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url(imagens/);
+}
