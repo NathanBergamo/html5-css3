@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'font.subtitulo';
+    src: url('Elegant\ DEMO.ttf');
+}
+
+@font-face {
+    font-family: 'font.titulo';
+    src: url('GingerBread.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor1: rgb(255, 255, 255);
+}
+
+header{
+    background-image: linear-gradient(255deg, #A60F44, #7B2444, #781C3D, #30101B); 
+
+}
+
+header > h1{
+    font-family: 'font.titulo';
+    font-size: 5em;
+    font-variant: small-caps;
+   color: var(--cor1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header > h2{
+    font-family: 'font.subtitulo';
+    color: var(--cor1);
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
+   
+}
+
+.titcor{
+    color: var(--cor1);
+}
+.subcor{
+    color: var(--cor1);
+    font-variant: small-caps;
+    font-size: 40px;
+   
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+nav{
+    display: flex;
+    gap: 2em;
+    margin: auto;
+    border-radius: 25px 25px 0px 0px;
+    border: 1px solid white;
+}
+nav > a{
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 15px 20px 10px;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    background-color: #A60F44;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    transition-duration: 1s;
+    color: pink;
+}
+section{
+    
+ 
+  
