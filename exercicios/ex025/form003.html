@@ -9,36 +9,51 @@
     *{
         font-family: Arial, Helvetica, sans-serif;
     }
+    body{
+        background-color: rgba(78, 75, 75, 0.295);
+    }
+    div{
+        max-width: 500px;
+        min-width: 280px;
+        padding: 8px;
+        margin: auto;
+        background-color: rgb(82, 82, 82);
+        text-align: center;
+        color: white;
+    }
+
 </style>
 <body>
-    <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="inome">Nome</label>
-            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
-       </p>
-       <p>
-        <label for="imedia">Média</label>
-        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5" required>
-       </p>
-       <p>
-        <label for="imes">Período Letivo</label>
-        <input type="month" name="mes" id="imes" value="2023-10">
-       </p>
-       <p>
-        <label for="idia">Dia da Prova</label>
-        <input type="date" name="dia" id="idia">
-       </p>
-       <p>
-        <label for="ihora">Hora da Prova</label>
-        <input type="time" name="hora" id="ihora" value="22:30">
-
-       </p>
-       <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-       </p>
-    </form>   
     
+        <div>
+            <h1>Teste de formulário</h1>
+            <form action="cadastro.php" method="get" autocomplete="on">
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+               </p>
+               <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5" required>
+               </p>
+               <p>
+                <label for="imes">Período Letivo</label>
+                <input type="month" name="mes" id="imes" value="2023-10">
+               </p>
+               <p>
+                <label for="idia">Dia da Prova</label>
+                <input type="date" name="dia" id="idia">
+               </p>
+               <p>
+                <label for="ihora">Hora da Prova</label>
+                <input type="time" name="hora" id="ihora" value="22:30">
+               </p>
+               <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+               </p>
+            </form>
+        </div>
+      
 </body>
 </html>
