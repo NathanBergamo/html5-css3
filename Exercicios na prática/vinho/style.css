@@ -14,6 +14,9 @@
     padding: 0;
     margin: 0;
 }
+html,body{
+    background: rgb(80, 5, 3);
+}
 
 :root{
     --cor1: rgb(255, 255, 255);
@@ -61,28 +64,44 @@ header > h2{
 
 nav{
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
     margin: auto;
     border-radius: 25px 25px 0px 0px;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
+    max-width: 400px;
+    
+
+
 }
 nav > a{
     font-size: 16px;
+    font-weight: bolder;
     text-align: center;
     padding: 20px 15px 20px 10px;
     margin: auto;
     text-decoration: none;
     color: white;
+    box-sizing: border-box;
 }
 
 nav > a:hover{
     background-color: #A60F44;
+    font-size: 1.3em;
     padding-top: 6px;
     padding-bottom: 10px;
-    transition-duration: 1s;
+    transition-duration: 0.7s;
     color: pink;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
 }
 section{
+    max-width: 580px;
+    margin: auto;
+    background-color: #A60F44;
+    font-family: 'font.titulo';
+    color: white;
+    padding: 20px;
+}
     
  
   
