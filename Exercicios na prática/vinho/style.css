@@ -95,13 +95,49 @@ nav > a:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
 }
 section{
-    max-width: 580px;
+    max-width: 800px;
     margin: auto;
     background-color: #A60F44;
     font-family: 'font.titulo';
     color: white;
-    padding: 20px;
+
 }
+
+section > h1{
+    padding: 10px;
+}
+article > ul{
+    columns: 2;
+    list-style-position: inside;
+    line-height: 1.7em;
+    padding-left: 80px;
+    
+}
+
+article > ul > a{
+    text-decoration: none;
+
+}
+
+article > ul > a > li{
+    color: white;
+    text-decoration: none;
+}
+div{
+    text-align: center;
+}
+iframe{
+    width: 95%;
+    height: 570px;
+    border: 2px solid black;
+    padding-left: 15px;
+    background-image: url(imagens/fundo01.png);
+    background-size: cover;
+    background-position: center bottom;
+  
+ 
+}
+
     
  
   
