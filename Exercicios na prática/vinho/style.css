@@ -111,18 +111,17 @@ article > ul{
     list-style-position: inside;
     line-height: 1.7em;
     padding-left: 80px;
+    color: white;
     
 }
 
-article > ul > a{
+article > ul > li>  a{
     text-decoration: none;
-
-}
-
-article > ul > a > li{
     color: white;
     text-decoration: none;
+
 }
+
 div{
     text-align: center;
 }
