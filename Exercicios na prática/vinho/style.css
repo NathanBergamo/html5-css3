@@ -68,12 +68,8 @@ img{
 
 nav{
     display: flex;
-    gap: 1.5em;
     margin: auto;
     border-radius: 25px 25px 0px 0px;
-    border: 1px solid #ffffff;
-    max-width: 600px;
-    
 
 
 }
@@ -81,11 +77,10 @@ nav > a{
     font-size: 16px;
     font-weight: bolder;
     text-align: center;
-    padding: 20px 15px 20px 10px;
+    padding: 20px 10px 20px 10px;
     margin: auto;
     text-decoration: none;
     color: white;
-    box-sizing: border-box;
 }
 
 nav > a:hover{
