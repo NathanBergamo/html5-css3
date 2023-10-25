@@ -34,6 +34,7 @@ header > h1{
    color: var(--cor1);
     margin-bottom: 20px;
     text-align: center;
+    padding-top: 20px;
 }
 
 header > h2{
@@ -41,7 +42,7 @@ header > h2{
     color: var(--cor1);
     font-size: 3.5em;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left:10px;
     padding-right:10px;
    
@@ -130,7 +131,7 @@ iframe{
     width: 95%;
     height: 570px;
     border: 2px solid black;
-    padding-left: 15px;
+  
     background-image: url(imagens/fundo01.png);
     background-size: cover;
     background-position: center bottom;
