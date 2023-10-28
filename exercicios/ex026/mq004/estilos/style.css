@@ -40,6 +40,16 @@ img{
     margin: auto;
 }
 
+#celular{ display: block; }
+#tablet{ display: none;}
+#print{ display: none;}
+#pc{ display: none;}
+#tv{ display: none;}
+
+
+
+
+
 img#phone { display: block; }
 img#tablet { display: none;}
 img#print {display: none;}
