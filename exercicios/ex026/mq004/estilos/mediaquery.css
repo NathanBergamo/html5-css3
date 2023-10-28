@@ -12,6 +12,55 @@ Grandes telas: acima de 1200px
 */
 
 @media print {  /*Impressão */
+
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+    body{
+        background-image: url(../imagens/back-print.jpg); /*desnecessario*/
+    
+    }
+
+    main{
+        border: 2px solid black;
+        width: 90vw;
+
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita através de www.bergamostudio';
+        text-decoration: overline;
+    }
+
+    main::before{
+        content: 'Nathan Studio';
+        text-align: center;
+    }
+
+
+ 
+    main h1{
+        text-shadow: none;
+        color: black;
+       
+
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none;}
+    img#print {display: block;}
+    img#pc { display: none;}
+    img#tv { display: none;}
+
+    #phone { display: none; }
+    #tablet { display: none;}
+    #print {display: block;}
+    #pc { display: none;}
+    #tv { display: none;}
+         
     
 }
 
