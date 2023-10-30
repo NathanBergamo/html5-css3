@@ -35,6 +35,10 @@ picture{
     display: flex;
     padding: 10px;
 }
+
+img{
+    width: 65%;
+}
 h2{
     color: wheat;
     padding: 20px;
