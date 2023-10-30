@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+}
+
+body{
+    background-color: rgba(8, 7, 7, 0.534);
+}
+
+h1{
+    color: wheat;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+
+}
+p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: white;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+picture{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+h2{
+    color: wheat;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+
+}
+ul > li{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
+    padding-right: 10px;
+}
