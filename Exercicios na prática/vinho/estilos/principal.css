@@ -82,7 +82,7 @@ article > ul{
 }
 
 article > ul > li >  a:hover{
-    box-shadow: 2px 2px rgb(255, 255, 255);
+    box-shadow: 1px 1px rgb(255, 255, 255);
     font-size: 20px;
     padding-right: 10px;
     transition-duration: 0.4s;
