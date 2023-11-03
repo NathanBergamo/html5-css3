@@ -10,7 +10,7 @@ body, html{
 }
 
 h2{
-    color: rgb(238, 255, 0);
+    color: rgb(0, 17, 255);
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ picture{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    max-width: 780px;
+    max-width: 750px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
