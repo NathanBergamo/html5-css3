@@ -49,14 +49,28 @@ div#primeira-fila{
     margin: auto;
     display: flex;
     justify-content: center;
-
+ 
 }
 
 div#primeira-fila > a{
     padding: 20px 10px 5px 10px;
 
+
     
 }
+
+
+#tela{
+    text-align: center;
+
+}
+
+iframe{
+    width: 94%;
+    height: 430px;
+    border: 2px solid black;
+}
+
 
 div#segunda-fila{
     margin: auto;
