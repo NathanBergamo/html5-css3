@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    background-color: black;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+a > img{
+    max-width: 100%;
+}
+
+main{
+    background-color: blue;
+    max-width: 700px;
+    margin: auto;
+}
+
+div#primeira-fila{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+div#primeira-fila > a{
+    padding: 20px 10px 5px 10px;
+
+    
+}
+
+div#segunda-fila{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+div#segunda-fila > a{
+    padding: 20px 10px 15px 10px;
+    
+}
