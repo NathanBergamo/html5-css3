@@ -30,8 +30,7 @@ picture{
 
 picture > img{
     max-width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+ 
 }
 
 
@@ -40,7 +39,7 @@ a > img{
 }
 
 main{
-    background-color: rgb(255, 51, 0);
+    background-color: rgb(38, 0, 255);
     max-width: 700px;
     min-width: 260px;
     margin: auto;
@@ -50,7 +49,7 @@ div#primeira-fila{
     margin: auto;
     display: flex;
     justify-content: center;
- 
+    
 }
 
 div#primeira-fila > a{
@@ -68,7 +67,7 @@ div#primeira-fila > a{
 
 iframe{
     width: 94%;
-    height: 350px;
+    height: 320px;
     border: 2px solid black;
 }
 
@@ -77,6 +76,7 @@ div#segunda-fila{
     margin: auto;
     display: flex;
     justify-content: center;
+ 
 }
 
 div#segunda-fila > a{
