@@ -10,7 +10,7 @@ body, html{
 }
 
 h2{
-    color: red;
+    color: rgb(238, 255, 0);
     text-align: center;
 }
 
@@ -30,6 +30,8 @@ picture{
 
 picture > img{
     max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
