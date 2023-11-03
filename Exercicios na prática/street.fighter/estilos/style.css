@@ -40,8 +40,9 @@ a > img{
 }
 
 main{
-    background-color: blue;
+    background-color: rgb(255, 51, 0);
     max-width: 700px;
+    min-width: 260px;
     margin: auto;
 }
 
