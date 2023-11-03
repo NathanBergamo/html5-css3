@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+
+@font-face {
+    font-family: 'start';
+    src: url('Crang.ttf');
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -9,10 +15,6 @@ body, html{
     background-color: black;
 }
 
-h2{
-    color: rgb(0, 119, 255);
-    text-align: center;
-}
 
 picture{
     display: flex;
@@ -39,10 +41,20 @@ a > img{
 }
 
 main{
-    background-color: rgb(38, 0, 255);
+    background-image: url(../imagens/fundo.2.jpg);
     max-width: 700px;
     min-width: 260px;
     margin: auto;
+}
+
+main > h2{
+    font-family: 'start';
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: rgba(243, 9, 9, 0.918);
+
 }
 
 div#primeira-fila{
@@ -69,6 +81,9 @@ iframe{
     width: 94%;
     height: 320px;
     border: 2px solid black;
+    background-image: url(../imagens/fundo.iframe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
