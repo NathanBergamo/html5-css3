@@ -21,7 +21,7 @@ picture{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    max-width: 730px;
+    max-width: 100%;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -67,7 +67,7 @@ div#primeira-fila > a{
 
 iframe{
     width: 94%;
-    height: 430px;
+    height: 350px;
     border: 2px solid black;
 }
 
