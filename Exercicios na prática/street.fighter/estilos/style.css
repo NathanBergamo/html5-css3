@@ -9,6 +9,11 @@ body, html{
     background-color: black;
 }
 
+h2{
+    color: white;
+    text-align: center;
+}
+
 picture{
     display: flex;
     justify-content: center;
@@ -16,7 +21,13 @@ picture{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    max-width: 780px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
+
 
 a > img{
     max-width: 100%;
