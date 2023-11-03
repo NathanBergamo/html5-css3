@@ -10,7 +10,7 @@ body, html{
 }
 
 h2{
-    color: white;
+    color: red;
     text-align: center;
 }
 
@@ -26,6 +26,10 @@ picture{
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+
+picture > img{
+    max-width: 100%;
 }
 
 
