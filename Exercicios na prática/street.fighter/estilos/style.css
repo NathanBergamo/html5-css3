@@ -23,7 +23,7 @@ picture{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    max-width: 845px;
+    max-width: 1045px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -42,7 +42,7 @@ a > img{
 
 main{
     background-image: url(../imagens/fundo.2.jpg);
-    max-width: 700px;
+    max-width: 900px;
     min-width: 260px;
     margin: auto;
 }
