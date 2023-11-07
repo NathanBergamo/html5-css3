@@ -23,7 +23,6 @@ picture{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    max-width: 1045px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -42,7 +41,7 @@ a > img{
 
 main{
     background-image: url(../imagens/fundo.2.jpg);
-    max-width: 900px;
+    max-width: 1200px;
     min-width: 260px;
     margin: auto;
 }
@@ -78,8 +77,8 @@ div#primeira-fila > a{
 }
 
 iframe{
-    width: 94%;
-    height: 320px;
+    width: 80%;
+    height: 500px;
     border: 2px solid black;
     background-image: url(../imagens/fundo.iframe.jpg);
     background-repeat: no-repeat;
