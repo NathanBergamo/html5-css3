@@ -13,7 +13,9 @@
 
 body, html{
     background-color: #111C4A;
+   
 }
+
 
 
 picture{
@@ -41,7 +43,7 @@ a > img{
 
 main{
     background-image: url(../imagens/fundo.2.jpg);
-    max-width: 1200px;
+    max-width: 1300px;
     min-width: 260px;
     margin: auto;
 }
@@ -77,7 +79,7 @@ div#primeira-fila > a{
 }
 
 iframe{
-    width: 80%;
+    width: 95%;
     height: 500px;
     border: 2px solid black;
     background-image: url(../imagens/fundo.iframe.jpg);
