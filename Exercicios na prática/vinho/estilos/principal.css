@@ -70,14 +70,6 @@ img{
 }
 
 
-nav{
-    display: flex;
-    margin: auto;
-    border-radius: 25px 25px 0px 0px;
-
-
-}
-
 article > ul{
     padding-bottom: 15px;
 }
@@ -130,7 +122,21 @@ iframe{
     background-size: cover;
     background-position: center bottom;
   
- 
+}
+
+footer{
+    margin: auto;
+    max-width: 850px;
+    min-width: 280px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    background-color: #A60F44;
+}
+
+footer > a{
+    color: white;
+    text-decoration: none;
 }
 
     
