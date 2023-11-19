@@ -99,7 +99,6 @@ article > ul{
     list-style-position: inside;
     line-height: 1.7em;
     text-align: center;
-
     color: white;
     
 }
@@ -137,6 +136,13 @@ footer{
 footer > a{
     color: white;
     text-decoration: none;
+}
+
+footer > a:hover{
+    color: #A60F44;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 2px;
+    border-radius: 5px 5px 5px 5px;
 }
 
     
