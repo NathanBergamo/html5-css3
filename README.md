@@ -8,5 +8,6 @@
 </li>
 <li>
 <a href="https://nathanbergamo.github.io/html5-css3/Exercicios%20na%20prática/pets/index.html">Projeto Mundo Pet.</a> </li>
- <a href="https://nathanbergamo.github.io/html5-css3/Exercicios%20na%20pr%C3%A1tica/vinho/index.html">Morada dos Vinhos. </a> </li>
+<li> 
+ <a href="https://nathanbergamo.github.io/html5-css3/Exercicios%20na%20pr%C3%A1tica/vinho/index.html">Morada dos Vinhos.</a> </li>
 </ul>
