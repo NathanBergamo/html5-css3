@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'start';
+    src: url('Crang.ttf');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    background-color: #111C4A;
+   
+}
+
+
+picture{
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+picture > img{
+    max-width: 100%;
+ 
+}
+
+
+a > img{
+    max-width: 100%;
+}
+
+main{
+    background-image: url(../imagens/fundo.2.jpg);
+    max-width: 1300px;
+    min-width: 260px;
+    margin: auto;
+}
+
+main > h2{
+    font-family: 'start';
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: rgba(243, 9, 9, 0.918);
+
+}
+
+div#primeira-fila{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+div#primeira-fila > a{
+    padding: 20px 10px 5px 10px;
+
+
+    
+}
+
+
+#tela{
+    text-align: center;
+
+}
+
+iframe{
+    width: 95%;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url(../imagens/fundo.iframe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div#segunda-fila{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+div#segunda-fila > a{
+    padding: 20px 10px 15px 10px;
+    
+}
